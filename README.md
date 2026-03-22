@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/Stack-Gemini%203%20(Primary%20Brain)%20%E2%80%A2%20Llama%203%20(Failover)%20%E2%80%A2%20Qwen%20(Survival)-orange?style=for-the-badge" alt="Multi-Model Stack" />
         <br>
         <img src="https://img.shields.io/badge/Copyright-%C2%A9%202026%20Ranajit%20Dhar-blue?style=for-the-badge" alt="Copyright" />
-        <a href="https://yesaimaster-ranajitdhar.streamlit.app" target="_blank">
+        <a href="https://yesai-master-edition-lab.streamlit.app" target="_blank">
   <img src="https://img.shields.io/badge/Live_Demo-Streamlit_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo" />
 </a>
       </p>
@@ -32,6 +32,10 @@ It is a **multi‑agent, multi‑brain, self‑healing, auto‑failover AI opera
  ❝ One prompt in. A coordinated AI workforce out. ❞
 
 
+ ## 🦊 GitLab AI Hackathon Integration
+This Master Edition has been uniquely upgraded for the GitLab AI Hackathon. We have natively integrated the **GitLab Duo Agent Platform** into the Swarm's core loop. Whenever the system detects a Dev or Sentinel mode request, the workflow dynamically routes the generated code to GitLab Duo for a simulated deep-dive architectural and security review before final evaluation.
+
+
  ## ⚡ Judge TL;DR (30-Second Overview)
 
  * 🧠 **Not a Chatbot** — A multi-agent AI operating system.
@@ -39,6 +43,7 @@ It is a **multi‑agent, multi‑brain, self‑healing, auto‑failover AI opera
  * 🛡️ **Unbreakable AI** — Gemini-first reasoning with intelligent auto-failover (Llama → Qwen).
  * 🔮 **Unified Pipeline** — Chain Dev, Analyst, Creator & Sentinel modes.
  * 🧬 **Quantum-Ready** — Sentinel Mode generates Kyber-1024 safe keys.
+ * 🦊 **GitLab Duo Integrated** — Dynamic code review and security validation intercepted by Duo Agent.
  * 📊 **Glass-Box Observability** — Live "Brain View", Real-time Cost & Token tracking.
 
 ---
@@ -94,7 +99,8 @@ graph TD
     subgraph "🤖 Agent Swarm"
         AM --> Nav["Navigator: Architect"]
         Nav -->|Plan| Cur["Curator: Builder"]
-        Cur -->|Draft Content| Eval["Evaluator: Quality Control"]
+        Cur -->|Draft Content| Duo["🦊 GitLab Duo: Code Review"]
+        Duo -->|Feedback| Eval["Evaluator: Quality Control"]
     end
     
     subgraph "🧠 Universal Brain (The Router)"
@@ -126,6 +132,7 @@ YES Ai adapts its personality and tools based on the selected mode:
 * **Role:** Senior Technical Architect.
 * **Capabilities:** Generates monolithic, self-contained Python scripts.
 * **Self-Repair:** Includes an **Auto-Debug Loop** to identify and patch logic errors before output. 🛠️
+* **GitLab Duo Validation:** Intercepts monolithic code generation to verify structural integrity before deployment.
 * **Validation:** Auto-appends `Dockerfile` for immediate deployment.
 * **X-Factor:** Produces **Production-Ready Code**, not just snippets.
 
@@ -145,6 +152,7 @@ YES Ai adapts its personality and tools based on the selected mode:
  **🧪 Sentinel Mode is an experimental research module showcasing how Gemini-driven agents can extend into future-grade security domains.**
 * **Role:** Quantum Security Specialist.
 * **Capabilities:** Generates **Kyber-1024** Quantum-Safe encryption keys.
+* **GitLab Duo Audit:** Evaluates the generated Kyber-1024 encryption protocols for quantum-safe compliance.
 * **Validation:** Strict compiler-style checks for security compliance.
 * **X-Factor:** Uses advanced prompt engineering to bypass standard LLM refusals for security research.
 
@@ -221,7 +229,7 @@ We don't just generate code; we provide the environment to run it.
 
 <div align="center">
   <br>
-  <a href="https://yesaimaster-ranajitdhar.streamlit.app" target="_blank">
+  <a href="https://yesai-master-edition-lab.streamlit.app" target="_blank">
     <img src="https://img.shields.io/badge/🚀_Skip_Installation_&_Try_Live_Demo-Click_Here-FF4B4B?style=for-the-badge" height="35" alt="Live Demo"/>
   </a>
   <br><br>
@@ -231,7 +239,7 @@ We don't just generate code; we provide the environment to run it.
 
 1.  **Clone & Install**
     ```bash
-    git clone https://github.com/ranajitdharpersonal/yes-ai-master
+    git clone https://github.com/ranajitdharpersonal/yes-ai-gitlab-edition
     pip install -r requirements.txt
     ```
 
