@@ -259,7 +259,7 @@ We don't just generate code; we provide the environment to run it.
 
 **Ranajit Dhar**
 * *Solo Developer · Commerce Grad turned AI Engineer · YES AI Systems Designer*
-* **Copyright © 2026. All rights reserved.**
+* **Copyright (c) 2026 Ranajit Dhar.**
 
 **⭐ Final Note:**
 This project was intentionally designed to explore the upper limits of what Gemini-powered agent systems can become.
